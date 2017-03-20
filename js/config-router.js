@@ -19,6 +19,11 @@ angular.module('app')
         .state('app.index',{
             url:'/index',
             templateUrl:"tpls/index.html",
+            resolve:{
+                deps:['$ocLazyLoad',function ($ocLazyLoad) {
+                    return $ocLazyLoad.load(['js/controllers/main.js'])
+                }]
+            },
         })
         .state('app.weichat',{
         url:'/weichat',

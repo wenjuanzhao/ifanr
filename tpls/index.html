@@ -1,11 +1,51 @@
-<div class="container" ng-controller="">
-    <div class="row marginer-lg-t">
-        <div class="col-md-6 padding-sm-r no-padding">
-           <div ng-show="">
+<div class="container" ng-controller="lunbo">
+    <div class="row marginer-lg-t ">
+        <div class="col-md-6 padding-sm-r no-padding text-white banner pos-rlt" >
+           <div ng-show="lunbo[0]" class="pos-rlt">
+               <h3 class="padding-lg-r pos-abt marginer-sm-l marginer-sm-t border-t-4p text-thin" style="padding-top: 0.5em">公司</h3>
                <img src="images/lunbo1.jpg" width="580">
+               <div class="pos-abt padding-sm-l padding-sm-r l-h-2x" style="bottom:2em">
+                   <div class="h3">LG 与中国分手成定局，还记得十年前的定情信物“巧克力”吗？
+                   </div>
+                   <div class="h5 marginer-sm-t">LG 沦落至此，究竟是中国智能手机市场的不容？还是 LG 选择失误的不幸？亦或是 LG 自己的不争？</div>
+               </div>
            </div>
+            <div ng-show="lunbo[1]" class="pos-rlt">
+                <h3 class="padding-lg-r pos-abt marginer-sm-l marginer-sm-t border-t-4p text-thin" style="padding-top: 0.5em">生活</h3>
+                <img src="images/lunbo2.jpg" width="580">
+                <div class="pos-abt padding-sm-l padding-sm-r l-h-2x" style="bottom:2em">
+                    <div class="h3">微信做了六组实验，结果发现所有人都失控了0
+                    </div>
+                    <div class="h5 marginer-sm-t">你认为如何使用微信才是科学的呢？0</div>
+                </div>
+            </div>
+            <div ng-show="lunbo[2]" class="pos-rlt">
+                <h3 class="padding-lg-r pos-abt marginer-sm-l marginer-sm-t border-t-4p text-thin" style="padding-top: 0.5em">工作</h3>
+                <img src="images/lunbo3.jpg" width="580">
+                <div class="pos-abt padding-sm-l padding-sm-r l-h-2x" style="bottom:2em">
+                    <div class="h3">微信做了六组实验，结果发现所有人都失控了1
+                    </div>
+                    <div class="h5 marginer-sm-t">你认为如何使用微信才是科学的呢？1</div>
+                </div>
+            </div>
+            <div class="pos-abt text-white text-center l-h-2x"  style="right: 1em ;top :1em">
+            <div class="border pull-left marginer-sm-l cursor" style="height: 2em;width: 2em" ng-repeat="number in numbers" ng-class="{'bg-white':number==selected,'text-dark':number==selected}" ng-click="lunbo_dong(number)">
+                <span>{{number}}</span>
+            </div>
+            </div>
         </div>
-        <div class="col-md-3">sas</div>
+        <div class="col-md-3" style="height: 368px;">
+            <div class="banner-r1 text-white text-thin padding-sm">
+                <div class="h3 border-b-1p">MindTalk</div>
+                <div class="minren marginer-sm-t marginer-sm-b"></div>
+                <div class="h4">
+                    今晚八点 | 打造上亿用户产品，美柚如何引起女性用户的青睐？
+                </div>
+                <div class="h6 marginer-sm-t marginer-sm-b">
+                    嘉宾： 陈惠斌 - 美柚 产品总监
+                </div>
+            </div>
+        </div>
         <div class="col-md-3">sasj</div>
     </div>
 </div>

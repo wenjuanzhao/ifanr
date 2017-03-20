@@ -112,7 +112,21 @@
 .text-sm{
   font-size: @font-size-sm;
 }
-
+.text-white{
+  color: @brand-light;
+}
+.text-dark{
+  color: @brand-dark;
+}
+.cursor{
+  cursor: pointer;
+}
+.pos-rlt{
+  position: relative;
+}
+.pos-abt{
+  position: absolute;
+}
 .l-h{
   line-height: @line-height-base;
 }
@@ -179,6 +193,39 @@
 .marginer-sm-b{
   margin-bottom: 1em;
 }
+.padding-md{
+  padding: 2em;
+}
+.padding-md-r{
+  padding-right:2em ;
+}
+.padding-md-l{
+  padding-left:2em ;
+}
+.padding-md-t{
+  padding-top:2em ;
+}
+.padding-md-b{
+  padding-bottom:2em ;
+}
+.padding-lg{
+  padding: 3em;
+}
+.padding-lg-r{
+  padding-right:3em ;
+}
+.padding-lg-l{
+  padding-left:3em ;
+}
+.padding-lg-t{
+  padding-top:3em ;
+}
+.padding-lg-b{
+  padding-bottom:3em ;
+}
+.padding-sm{
+  padding: 1em;
+}
 .padding-sm-r{
   padding-right:1em ;
 }
@@ -191,7 +238,9 @@
 .padding-sm-b{
   padding-bottom:1em ;
 }
-
+.bg-white{
+  background-color: #ddd
+}
 
 .padder-lg{
    padding:3em;
@@ -225,11 +274,23 @@ a.hover_red{
       border-bottom: 4px solid red;
     }
 }
+.border{
+  border:1px solid @brand-light;
+}
+.border-t-4p{
+   border-top:4px solid @brand-light;
+}
+.border-b-1p{
+  border-bottom: 1px solid @brand-light ;padding-bottom: 0.5em;
+}
 .bg-none{
   background:none!important;
 }
 .border-none{
   border:none!important;
+}
+.minren{
+  height: 130px;background-repeat: no-repeat;width: 100%;background-size:cover ;background-position: top center;background-image:url("../images/minren1.png");
 }
 
 
@@ -257,4 +318,10 @@ a.hover_red{
 }
 .header {
   background-color: @panel-bg;height: 4em;
+}
+.banner .h2{
+    top: 2em;
+}
+.banner-r1{
+  background: #1ABAC3;
 }
