@@ -1,0 +1,151 @@
+/*
+
+*/
+.text-3x {
+  font-size: 3em;
+}
+.text-2x {
+  font-size: 2em;
+}
+.text-lg {
+  font-size: 18px;
+}
+.text-sm {
+  font-size: 16px;
+}
+.text-xs {
+  font-size: 12px;
+}
+.text-sm {
+  font-size: 13px;
+}
+.l-h {
+  line-height: 1.42857143;
+}
+.l-h-0x {
+  line-height: 0;
+}
+.l-h-1x {
+  line-height: 1.2;
+}
+.l-h-2x {
+  line-height: 2em;
+}
+.b-all {
+  border: 1px solid #ddd;
+}
+.bg-base {
+  background: #f0f3f4;
+}
+.marginer-lg {
+  margin: 3em;
+}
+.marginer-lg-r {
+  margin-right: 3em;
+}
+.marginer-lg-t {
+  margin-top: 3em;
+}
+.marginer-lg-l {
+  margin-left: 3em;
+}
+.marginer-lg-b {
+  margin-bottom: 3em;
+}
+.no-margin-r {
+  margin-right: 0!important;
+}
+.marginer-md {
+  margin: 2em;
+}
+.marginer-md-r {
+  margin-right: 2em;
+}
+.marginer-md-t {
+  margin-top: 2em;
+}
+.marginer-md-l {
+  margin-left: 2em;
+}
+.marginer-md-b {
+  margin-bottom: 2em;
+}
+.marginer-sm {
+  margin: 1em;
+}
+.marginer-sm-r {
+  margin-right: 1em;
+}
+.marginer-sm-t {
+  margin-top: 1em;
+}
+.marginer-sm-l {
+  margin-left: 1em;
+}
+.marginer-sm-b {
+  margin-bottom: 1em;
+}
+.padding-sm-r {
+  padding-right: 1em ;
+}
+.padding-sm-l {
+  padding-left: 1em ;
+}
+.padding-sm-t {
+  padding-top: 1em ;
+}
+.padding-sm-b {
+  padding-bottom: 1em ;
+}
+.padder-lg {
+  padding: 3em;
+}
+.padder-h-xs {
+  padding-left: 1em;
+  padding-right: 2em;
+}
+.padder-v-xs {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.no-margin {
+  margin: 0!important;
+}
+.no-padding {
+  padding: 0!important;
+}
+.text-thin {
+  font-weight: bold;
+}
+.clear:after {
+  display: inline-block;
+  content: "";
+  clear: both;
+}
+a.hover_red:hover {
+  color: red!important;
+  border-bottom: 4px solid red;
+}
+.bg-none {
+  background: none!important;
+}
+.border-none {
+  border: none!important;
+}
+.weichat_img {
+  width: 70px;
+  height: 70px;
+}
+.fa:after {
+  display: inline-block;
+  content: "";
+  padding-left: 7px ;
+}
+.footer-bg {
+  background-color: #26292E;
+  color: #fff;
+}
+.header {
+  background-color: #fff;
+  height: 4em;
+}

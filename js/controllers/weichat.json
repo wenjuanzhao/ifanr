@@ -1,0 +1,32 @@
+{
+  "weichats":[
+    {
+       "image1":"images/ifanr-logo.png",
+      "title1":"爱范儿",
+      "small1":"公众号：aifanr",
+      "image2":"images/ifanr-qrcode.png",
+      "title2":"报道未来，服务新生活引领者"
+     }
+    , {
+      "image1":"images/ifanr-logo.png",
+      "title1":"爱范儿",
+      "small1":"公众号：aifanr",
+      "image2":"images/ifanr-qrcode.png",
+      "title2":"报道未来，服务新生活引领者"
+    },
+    {
+      "image1":"images/ifanr-logo.png",
+      "title1":"爱范儿",
+      "small1":"公众号：aifanr",
+      "image2":"images/ifanr-qrcode.png",
+      "title2":"报道未来，服务新生活引领者"
+    },
+    {
+      "image1":"images/ifanr-logo.png",
+      "title1":"爱范儿",
+      "small1":"公众号：aifanr",
+      "image2":"images/ifanr-qrcode.png",
+      "title2":"报道未来，服务新生活引领者"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+
+    <div class="container" ng-controller="weichatCtrl">
+        <div class="row">
+            <div class="col-md-3 no-padding marginer-lg-t" ng-repeat="weichat in weichats" >
+                <div class="b-all bg-base marginer-lg-r padder-lg text-center" ng-class="{'no-margin-r':$index==3}" >
+                    <img src={{weichat.image1}} class="weichat_img">
+                    <div class="h4 marginer-md-t">{{weichat.title1}}</div>
+                    <p class="marginer-sm-t">{{weichat.small1}}</p>
+                    <img src="{{weichat.image2}}" class="weichat_img marginer-lg-t">
+                    <div class="h4 marginer-md-t">{{weichat.title2}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
